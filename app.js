@@ -25,7 +25,7 @@ app.get('/users/:id', (req, res) => {
   })
 
 app.post('/users', (req, res) => {
-    if (!req.body.id || !req.body.email || !req.body.name) {
+    if (!req.body.email || !req.body.name) {
         res.status(400).send('Id, Name and Email are required to create a user');
     }
 
@@ -53,7 +53,7 @@ app.put('/users/:id', (req, res) => {
         return;
     }
 
-    if (!req.body.id || !req.body.email || !req.body.name) {
+    if (!req.body.email || !req.body.name) {
         res.status(400).send('Id, Name and Email are required to create a user');
     }
 
