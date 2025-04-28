@@ -1,0 +1,15 @@
+{
+  "name": "random-ui",
+  "version": "1.0.0",
+  "description": "Raul Contreras <raul.contreras@tallertechnologies.net>\r 6:16 PM (1 minute ago)\r to me",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
